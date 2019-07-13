@@ -15,5 +15,11 @@ Javascript는 절대 기다리지 않는다.
 
 그래서 이것보다 더 좋은 방법이 있다. 모든 error를 다 잡아주는것.
 
-`try catch`
+#### `try` and `catch`
 
+`try` 는 우리가 해야 할것들이고, 
+
+만약 실패한다면 `catch`가 해당 error를 잡아 낼거야. 그러면 우리는 무슨 error인지 볼수 있어.
+
+근데 이때 `catch` 는 default로 error를 잡아내지 못해.
+이건 NodeJS의 문제인데, 
